@@ -1,3 +1,11 @@
+# NFS client provisioner Garmin helm chart
+
+This helm chart is duplicated and modified from https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client.
+
+---
+(Below is the original README.md)
+
+
 # nfs-client-provisioner
 
 The [NFS client provisioner](https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client) is an automatic provisioner for Kubernetes that uses your _already configured_ NFS server, automatically creating Persistent Volumes.
