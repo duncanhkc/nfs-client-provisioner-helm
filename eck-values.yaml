@@ -12,7 +12,7 @@ image:
 
 nfs:
   server: 10.124.0.123
-  path: /vol/rancher/infra
+  path: /vol/rancher/infra/eck
   mountOptions: {}
 
 # For creating the StorageClass automatically:
