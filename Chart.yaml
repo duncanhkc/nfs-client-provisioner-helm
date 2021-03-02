@@ -1,15 +1,14 @@
 apiVersion: v1
 appVersion: 3.1.0
-description: nfs-client is an automatic provisioner that used your *already configured* NFS server, automatically creating Persistent Volumes.
-home: https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
+description: nfs-client is an automatic provisioner that used your *already configured* NFS server, automatically creating storage class
+home: https://linxpa-gitlab00.garmin.com/huangduncan/nfs-client-provisioner.helm
 keywords:
 - nfs
 - storage
 maintainers:
-- email: christian.kotzbauer@gmail.com
-  name: ckotzbauer
+- email: Duncan.Huang@garmin.com
+  name: 黃畊彰, Duncan Huang
 name: nfs-client-provisioner
 sources:
-- https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
-- https://github.com/ckotzbauer/helm-charts
+- https://linxpa-gitlab00.garmin.com/huangduncan/nfs-client-provisioner.helm
 version: 1.0.2

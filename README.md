@@ -1,6 +1,8 @@
 # NFS client provisioner Garmin helm chart
 
 This helm chart is duplicated and modified from https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client.
+There may be many nfs client provisioner needed. 
+Use {app}-values.yaml for different deployments if the templates could remain the same. 
 
 ---
 (Below is the original README.md)
