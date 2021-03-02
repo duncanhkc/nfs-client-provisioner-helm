@@ -2,7 +2,7 @@
 
 This helm chart is duplicated and modified from https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client.
 There may be many nfs client provisioner needed. 
-Use {app}-values.yaml for different deployments if the templates could remain the same. 
+Use {app}-{profile}-values.yaml for different deployments. e.g. eck-uat-values.yaml 
 
 ---
 (Below is the original README.md)
