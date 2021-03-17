@@ -10,7 +10,7 @@ keywords:
 - storage
 maintainers:
 - email: Duncan.Huang@garmin.com
-  name: Duncan Huang | 黃畊彰
+  name: Duncan Huang
 name: nfs-client-provisioner
 sources:
 - https://linxpa-gitlab00.garmin.com/huangduncan/nfs-client-provisioner.helm
