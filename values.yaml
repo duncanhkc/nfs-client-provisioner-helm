@@ -11,8 +11,8 @@ image:
   pullPolicy: IfNotPresent
 
 nfs:
-  server: 10.124.0.123
-  path: /vol/rancher/infra
+  server: 192.168.0.15
+  path: /nfs_share/infra/eck
   mountOptions: {}
 
 # For creating the StorageClass automatically:
@@ -28,8 +28,7 @@ storageClass:
 
   # Set a StorageClass name
   # Ignored if storageClass.create is false
-  # name must be changed to avoid collision
-  name: nfs-client
+  name: nfs-client-eck
 
   # Allow volume to be expanded dynamically
   allowVolumeExpansion: true
@@ -48,8 +47,8 @@ storageClass:
 rbac:
   # Specifies whether RBAC resources should be created
   create: true
-  # Role name must be changed to avoid name collision
-  clusterRoleName: nfs-client-cluster-Role
+  # Role name must be given to avoid name collision
+  clusterRoleName: nfs-client-eck-cluster-Role
 
 # If true, create & use Pod Security Policy resources
 # https://kubernetes.io/docs/concepts/policy/pod-security-policy/
@@ -65,8 +64,7 @@ serviceAccount:
 
   # The name of the ServiceAccount to use.
   # If not set and create is true, a name is generated using the fullname template
-  # ServiceAccount must be changed to avoid name collision
-  name: nfs-client
+  name: nfs-client-eck
 
 resources:
   limits:
