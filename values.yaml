@@ -11,7 +11,7 @@ image:
   pullPolicy: IfNotPresent
 
 nfs:
-  server: 192.168.0.15
+  server: node04
   path: /nfs_share/infra/eck
   mountOptions: {}
 
